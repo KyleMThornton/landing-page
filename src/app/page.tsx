@@ -1,7 +1,4 @@
 "use client";
-
-import { Loading } from "react-loading-dot";
-
 export default function Home() {
   const handleClick = () => {
     window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
