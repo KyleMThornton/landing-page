@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .loading {
-  @apply w-48 h-48;
+  @apply w-52 h-52;
 }
