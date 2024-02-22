@@ -5,14 +5,13 @@ export default function Home() {
   };
 
   return (
-    // bg-gradient-to-br from-slate-300 to-white-100
     <div className="relative">
       <div className="fixed inset-0 bg-[url('/grain.svg')] bg-center bg-no-repeat bg-cover animate-slowpulse z-10"></div>
       <div className="fixed inset-0 bg-gradient-to-br from-slate-900 to-black z-0"></div>
       <main className="relative flex flex-col w-screen h-screen justify-center items-center z-20">
         <div className="flex md:text-8xl text-6xl font-bold text-white">
-          <h1 className="md:hover:text-mega ease-in duration-1000">B</h1>
-          <h1>ig things</h1>
+          {/* <h1 className="md:hover:text-mega ease-in duration-1000">B</h1> */}
+          <h1>Big things</h1>
         </div>
         <div className="flex md:text-7xl text-5xl font-light">
           <h1 className="text-slate-300">coming soon...</h1>
